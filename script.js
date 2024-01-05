@@ -39,12 +39,12 @@ function playGame(playerChoice){
 
     switch(result){
         case "YOU WIN!":
-            resultDisplay.classList.add("greenText");
+            resultDisplay.classList.add("text-green-700");
             playerScore++;
             playerScoreDisplay.textContent = playerScore;
             break;
         case "YOU LOSE!":
-            resultDisplay.classList.add("redText");
+            resultDisplay.classList.add("text-red-700");
             computerScore++;
             computerScoreDisplay.textContent = computerScore;
             break;
